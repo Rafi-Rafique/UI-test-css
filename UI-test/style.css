@@ -1,0 +1,225 @@
+@font-face {
+    font-family: myfont;
+    src: url(KronaOne-Regular.ttf);
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   background-image: url(images/Image\ \(15\).png) !important;
+   background-attachment: fixed;
+  
+   background-color: #0a0a0a;
+
+}
+.logo{
+    font-family: myfont;
+}
+
+.container-fluid{
+    /* background-image: url(images/Image\ \(15\).png) !important;
+    position: absolute !important;
+    z-index: -1 !important; */
+}
+.menu a:hover{
+color: #F17AD4 !important;
+}
+
+.btn-1{
+    border: 2px solid #F17AD4;
+  color: #f2f2f2;
+  border-radius: 20px;
+}
+
+.btn-2{
+background-color: #F17AD4;
+  color: #0a0a0a;
+  border-radius: 20px;
+}
+
+.btn-3{
+    background-color: #fbf8fa;
+      color: #0a0a0a;
+      border-radius: 20px;
+      
+    }
+
+.head-1{
+    color: #F17AD4;
+    letter-spacing: 7px;
+    font-size: 4em !important;
+}
+
+.para-1{
+    font-size: 1.5em !important;
+}
+
+.head-2{
+    font-size: 3em !important;
+}
+
+.head-3{
+    font-size: 1.5em !important;
+    color: #F17AD4;
+}
+.strategy{
+    font-size: 2em !important;
+    color: #f5f1f4;
+}
+span{
+    color: white;
+}
+
+/* .........................media-queries */
+/* ........................................for-laptops */
+@media (min-width: 1024px){
+    .head-1{
+        color: #F17AD4;
+        letter-spacing: 7px;
+        font-size: 4em !important;
+    
+    }
+    
+    .para-1{
+        font-size: 1.5em !important;
+       
+    }
+    
+    .head-2{
+        font-size: 3em !important;
+    
+    }
+    
+    .head-3{
+        font-size: 1.5em !important;
+        color: #F17AD4;
+    
+    }
+    .strategy{
+        font-size: 2em !important;
+        color: #f5f1f4;
+        
+    }
+    span{
+        color: white;
+    }
+    
+
+    .image{
+        display: none;
+    }
+
+
+
+}
+/* ........................................for-tablets */
+
+@media(min-width: 426px) and (max-width: 1023px){
+    body{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+       /* background-image: url(images/Image\ \(15\).png) !important; */
+       /* background-attachment: fixed; */
+       background-color: #0a0a0a;
+       
+    
+    }
+
+    .image{
+        display: none;
+        width: fit-content;
+    }
+
+
+}
+
+
+
+
+
+
+/* ........................................for-mobile */
+@media (max-width: 426px) {
+
+    body{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+       
+       background-color: #0a0a0a;
+       
+    
+    }
+
+    .head-1{
+        color: #F17AD4;
+        letter-spacing: 7px;
+        font-size: 2em !important;
+        display: block;
+        margin-left: 5%;
+    }
+    
+    .para-1{
+        font-size: 1em !important;
+        display: block;
+        margin-left: 5%;
+       
+    }
+    
+    .head-2{
+        font-size: 3em !important;
+        display: block;
+        margin-left: 5%;
+    
+    }
+    
+    .head-3{
+        font-size: 1.5em !important;
+        color: #F17AD4;
+        display: block;
+        margin-left: 5%;
+    
+    }
+    .strategy{
+        font-size: 2em !important;
+        color: #f5f1f4;
+        display: block;
+       margin-left: 5%;
+        
+    }
+    span{
+        color: white;
+    }
+    
+    .image{
+       width: 400%;
+       text-align: center;
+    }
+
+    .menu a:hover{
+        color: #F17AD4 !important;
+        }
+        
+        .btn-1{
+            border: 2px solid #F17AD4;
+          color: #f2f2f2;
+          border-radius: 20px;
+        }
+        
+        .btn-2{
+        background-color: #F17AD4;
+          color: #0a0a0a;
+          border-radius: 20px;
+        }
+        
+        .btn-3{
+            background-color: #fbf8fa;
+              color: #0a0a0a;
+              border-radius: 20px;
+             text-align: center;
+              
+            }
+        
+
+}
